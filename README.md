@@ -33,17 +33,20 @@ This tool processes project data from CSV files to:
 ```bash
 pip install pandas matplotlib networkx numpy tkinter
 ```
+or
+```bash
+pip install -r requirements.txt
+```
 
 ### Quick Start
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/project-critical-path-analyzer.git
-cd project-critical-path-analyzer
+git clone https://github.com/Rud41/GANTTv2.git
 ```
 
 2. Run the application:
 ```bash
-python project_analyzer.py
+python MAIN.ipynb
 ```
 
 ## 📁 Project Structure
@@ -51,8 +54,9 @@ python project_analyzer.py
 ```
 project-critical-path-analyzer/
 │
-├── project_analyzer.py          # Main application file
-├── sample_data.csv              # Example project data
+├── MAIN.ipynb          # Main application file
+├── DATA.csv              # Example project data
+├── ERRDATA1..3.csv            # Example incorrect data
 ├── requirements.txt             # Python dependencies
 └── README.md                   # This file
 ```
@@ -84,7 +88,7 @@ E, G;I, B, 3, 9
 
 1. **Launch the application**:
    ```bash
-   python project_analyzer.py
+   python MAIN.ipynb
    ```
 
 2. **Select your CSV file** through the graphical file dialog
